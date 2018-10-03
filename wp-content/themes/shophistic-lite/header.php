@@ -46,7 +46,7 @@
 
                             <div class="logo_container">
                                 <a href="<?php echo home_url(); ?>/" class="ql_logo google-font">
-                                <img src="/wp-content/uploads/2017/07/logo.png" class="logo-img" />
+                                <img src="/wp-content/themes/shophistic-lite/images/logo.png" class="logo-img" />
                                 </a>
                                 <button id="ql_nav_btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ql-navigation" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>

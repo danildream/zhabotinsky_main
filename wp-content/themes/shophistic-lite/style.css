@@ -41,6 +41,8 @@ LESS Variables and Mixins
   -webkit-transition: padding 200ms;
   -o-transition: padding 200ms;
   transition: padding 200ms;
+  background: #1c448a;
+  color: white;
 }
 .search_open #header {
   padding-top: 80px;
@@ -146,7 +148,7 @@ Nav Menu
   -webkit-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-  color: #777777;
+  color: #fff;
   padding: 0.71428571428571em 1.07142857142857em;
 }
 #jqueryslidemenu ul.nav > li > a:hover {
@@ -271,13 +273,13 @@ Login and Cart Buttons
   float: right;
 }
 .ql_login-btn {
-  color: #777777;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   font-size: 0.875rem;
   padding: 5px 25px;
   margin: 5px 0;
-  border-right: 1px solid #b3b3b3;
+  border-right: 1px solid #fff;
   display: block;
   outline: 0!important;
 }
@@ -328,7 +330,7 @@ Login and Cart Buttons
 }
 .ql_cart-btn .count,
 .ql_cart_wrap:hover .ql_cart-btn .count {
-  color: #777777;
+  color: #ffff;
 }
 .ql_cart-btn i {
   font-size: 30px;
