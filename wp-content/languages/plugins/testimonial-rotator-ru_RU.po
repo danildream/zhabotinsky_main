@@ -1,0 +1,563 @@
+# Translation of Plugins - Testimonial Rotator - Development (trunk) in Russian
+# This file is distributed under the same license as the Plugins - Testimonial Rotator - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-04 11:30:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Testimonial Rotator - Development (trunk)\n"
+
+#: admin/admin-settings.php:119
+msgid "This custom CSS will get inserted after the testimonial rotator CSS is loaded so you can override the styles."
+msgstr "Пользовательские CSS будут вставлены после загрузки CSS ротатора отзывов, чтобы вы могли переопределить стили."
+
+#: admin/admin-settings.php:35
+msgid "Custom CSS"
+msgstr "Пользовательские CSS"
+
+#: admin/metaboxes-rotator.php:149 widget.php:252
+msgid "Hide Author"
+msgstr "Скрыть автора"
+
+#: admin/metaboxes-rotator.php:144 widget.php:243
+msgid "Hide Body"
+msgstr "Скрыть тело"
+
+#: admin/metaboxes-rotator.php:139 widget.php:234
+msgid "Hide Stars"
+msgstr "Скрыть звезды"
+
+#: admin/metaboxes-rotator.php:134 widget.php:225
+msgid "Hide Title"
+msgstr "Скрыть заголовок"
+
+#: widget.php:205
+msgid "Read more, View Full, etc."
+msgstr "Подробнее, полный просмотр и т. д."
+
+#: widget.php:204
+msgid "Text for Link to Testimonial"
+msgstr "Текст для ссылки на отзыв"
+
+#: widget.php:186
+msgid "Show Link to Testimonial"
+msgstr "Показать ссылку на отзыв"
+
+#: widget.php:78
+msgid "Custom Excerpt Length: (in words)"
+msgstr "Пользовательская длина выдержки: (в словах)"
+
+#: admin/metaboxes-rotator.php:161 widget.php:267
+msgid "Name of Item Being Reviewed:"
+msgstr "Название проверяемого объекта"
+
+#: widget.php:157 widget.php:166 widget.php:175 widget.php:184 widget.php:214
+#: widget.php:223 widget.php:232 widget.php:241 widget.php:250 widget.php:259
+msgid "No"
+msgstr "Нет"
+
+#: widget.php:156 widget.php:165 widget.php:174 widget.php:183 widget.php:213
+#: widget.php:222 widget.php:231 widget.php:240 widget.php:249 widget.php:258
+msgid "Yes"
+msgstr "Да"
+
+#: widget.php:155 widget.php:164 widget.php:173 widget.php:182 widget.php:212
+#: widget.php:221 widget.php:230 widget.php:239 widget.php:248 widget.php:257
+msgid "Default"
+msgstr "По умолчанию"
+
+#: widget.php:120 widget.php:130
+msgid "Rotator Default"
+msgstr "Ротатор по умолчанию"
+
+#: widget.php:114
+msgid "Template"
+msgstr "Шаблон"
+
+#: widget.php:94
+msgid "Override Rotator Settings?"
+msgstr "Переопределитиь настройки ротатора?"
+
+#: frontend-functions.php:78 testimonial-rotator.php:485
+msgid "The template: %s could be found"
+msgstr "Шаблон: %s  может быть найден"
+
+#: testimonial-rotator.php:240
+msgid "Testimonial could not be found with ID: %d"
+msgstr "Не удалось найти отзывс ID: %d"
+
+#: testimonial-rotator.php:235
+msgid "Testimonial is not a testimonial post type"
+msgstr "Отзыв не подходит по характеристикам к типу отзывов"
+
+#: admin/metaboxes-rotator.php:285
+msgid "No testimonials have been associated to this rotator yet."
+msgstr "К этому ротатору пока не было привязано отзывов."
+
+#: admin/metaboxes-rotator.php:281
+msgid "View in Edit List"
+msgstr "Просмотреть в списке редактирования"
+
+#: admin/metaboxes-rotator.php:201
+msgid "Go"
+msgstr "Вперед"
+
+#: admin/metaboxes-rotator.php:187
+msgid "Select a Theme:"
+msgstr "Выбор темы:"
+
+#: admin/metaboxes-rotator.php:162
+msgid "not visible on your website, used for search engines"
+msgstr "Не отображается на вашем сайте, используется для поисковых систем"
+
+#: admin/metaboxes-rotator.php:162 widget.php:268
+msgid "Company Name, Product Name, etc."
+msgstr "Название компании, название продукта и т. д."
+
+#: admin/metaboxes-rotator.php:106 widget.php:150
+msgid "Element for Title Field"
+msgstr "Элемент для поля заголовка"
+
+#: admin/metaboxes-rotator.php:9
+msgid "Base Rotator"
+msgstr "Базовый ротатор"
+
+#: admin/admin-settings.php:105
+msgid "Check out the themes available"
+msgstr "Проверьте доступные темы"
+
+#: admin/admin-settings.php:102
+msgid "Insert the email address you used to purchase this plugin."
+msgstr "Укажите адрес электронной почты, который вы использовали для покупки этого плагина."
+
+#: admin/admin-settings.php:100
+msgid "This is used to update your plugin when new versions become available."
+msgstr "Это используется для обновления вашего плагина при появлении новых версий."
+
+#: admin/admin-settings.php:94
+msgid "Defined in wp-config"
+msgstr "Определено в wp-config"
+
+#: admin/admin-settings.php:34
+msgid "Register for Updates"
+msgstr "Зарегистрируйтесь для получения обновлений"
+
+#: admin/admin-functions.php:243
+msgid "Themes"
+msgstr "Темы"
+
+#: admin/admin-functions.php:139
+msgid "None assigned yet"
+msgstr "Ничего не назначено"
+
+#: admin/admin-functions.php:98
+msgid "Testimonial Count"
+msgstr "Счетчик отзывов"
+
+#: admin/admin-functions.php:97
+msgid "Theme"
+msgstr "Тема"
+
+#: admin/admin-functions.php:86
+msgid "Display as Single"
+msgstr "Отображать как одиночные"
+
+#: admin/admin-functions.php:52
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: admin/admin-functions.php:20
+msgid "Associated Testimonials"
+msgstr "Связанные отзывы"
+
+#. Author URI of the plugin/theme
+msgid "http://www.halgatewood.com"
+msgstr "http://www.halgatewood.com"
+
+#. Author of the plugin/theme
+msgid "Hal Gatewood"
+msgstr "Hal Gatewood"
+
+#. Description of the plugin/theme
+msgid "A handy plugin for WordPress developers to add testimonials to their site. Enough functionality to be helpful and also stays out of your way."
+msgstr "Полезный плагин для разработчиков WordPress, добавляющий отзывы на сайт. Достаточно функционален, чтобы быть полезным и и при этом не мешать."
+
+#. Plugin URI of the plugin/theme
+msgid "https://halgatewood.com/testimonial-rotator"
+msgstr "https://halgatewood.com/testimonial-rotator"
+
+#. Plugin Name of the plugin/theme
+msgid "Testimonial Rotator"
+msgstr "Testimonial Rotator"
+
+#: widget.php:74
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: widget.php:73
+msgid "Full"
+msgstr "Полный"
+
+#: widget.php:72
+msgid "Show as:"
+msgstr "Показать как:"
+
+#: widget.php:68
+msgid "List"
+msgstr "Список"
+
+#: widget.php:66
+msgid "Display:"
+msgstr "Показ:"
+
+#: widget.php:63
+msgid "Limit:"
+msgstr "Ограничение:"
+
+#: widget.php:50
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widget.php:8
+msgid "Testimonials Rotator"
+msgstr "Ротатор отзывов"
+
+#: widget.php:7
+msgid "Displays rotating testimonials"
+msgstr "Показ переключающихся отзывов"
+
+#: testimonial-rotator.php:543
+msgid "Previous Testimonials"
+msgstr "Предыдущая цитата (отзыв)"
+
+#: testimonial-rotator.php:542
+msgid "Next Testimonials"
+msgstr "Следующий отзыв"
+
+#: testimonial-rotator.php:266
+msgid "Rotator could not be found with ID: %d"
+msgstr "Не удалось найти ротатора с ID: %d"
+
+#: testimonial-rotator.php:160
+msgid "No rotators found in Trash"
+msgstr "В корзине нет ротатороа"
+
+#: testimonial-rotator.php:159
+msgid "No rotators found"
+msgstr "Ротаторов не найдено"
+
+#: testimonial-rotator.php:158
+msgid "Search Rotators"
+msgstr "Поиск ротатора"
+
+#: testimonial-rotator.php:157
+msgid "View Rotator"
+msgstr "Просмотр ротатора"
+
+#: testimonial-rotator.php:156 widget.php:55
+msgid "All Rotators"
+msgstr "Все ротаторы"
+
+#: testimonial-rotator.php:155
+msgid "New Rotator"
+msgstr "Новый ротатор"
+
+#: testimonial-rotator.php:154
+msgid "Edit Rotator"
+msgstr "Редактировать ротатор"
+
+#: testimonial-rotator.php:153
+msgid "Add New Rotator"
+msgstr "Добавить новый ротатор"
+
+#: testimonial-rotator.php:150
+msgid "Testimonial Rotators"
+msgstr "Ротаторы отзывов"
+
+#: testimonial-rotator.php:126
+msgid "No testimonials found in Trash"
+msgstr "В корзине нет отзывов"
+
+#: testimonial-rotator.php:125
+msgid "No testimonials found"
+msgstr "Отзывы не найдены"
+
+#: testimonial-rotator.php:124
+msgid "Search Testimonials"
+msgstr "Поиск отзыва"
+
+#: testimonial-rotator.php:123
+msgid "View Testimonial"
+msgstr "Просмотр отзыва"
+
+#: testimonial-rotator.php:122
+msgid "All Testimonials"
+msgstr "Все отзывы"
+
+#: testimonial-rotator.php:121
+msgid "New Testimonial"
+msgstr "Новый отзыв"
+
+#: testimonial-rotator.php:120
+msgid "Edit Testimonial"
+msgstr "Редактировать отзыв"
+
+#: testimonial-rotator.php:119
+msgid "Add New Testimonial"
+msgstr "Добавить новый отзыв"
+
+#: testimonial-rotator.php:117
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: testimonial-rotator.php:116 testimonial-rotator.php:128
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: frontend-functions.php:110
+msgid "Something unknown went wrong"
+msgstr "Что-то пошло не так"
+
+#: frontend-functions.php:98
+msgid "View Full"
+msgstr "Посмотреть все"
+
+#: admin/metaboxes-testimonial.php:44
+msgid "Company Name, Credentials, etc. (this info shows below the author's testimonial by default)"
+msgstr "Название компании, учетные данные и т. д. (Эта информация отображается ниже отзыва автора по умолчанию)"
+
+#: admin/metaboxes-testimonial.php:43
+msgid "Author Information:"
+msgstr "Информация об авторе:"
+
+#: admin/metaboxes-testimonial.php:39
+msgid "Don't Show"
+msgstr "Не показывать"
+
+#: admin/metaboxes-testimonial.php:33
+msgid "Star Rating:"
+msgstr "Звездный рейтинг:"
+
+#: admin/metaboxes-testimonial.php:24
+msgid "Attach to Rotator: "
+msgstr "Прикрепить к ротатору:"
+
+#: admin/metaboxes-testimonial.php:20
+msgid "You need to publish this testimonial so you don't lose your work and then go create a Testimonial Rotator. You can then edit this testimonial and select the rotator here."
+msgstr "Вам нужно опубликовать этот отзыв, чтобы не потерять сделанную работу, а затем создать ротатор отзывов. Потом вы можете отредактировать этот отзыв и выбрать ротатор."
+
+#: admin/metaboxes-testimonial.php:19
+msgid "No Testimonial Rotators have been created."
+msgstr "Ротаторы отзывов не создавались."
+
+#: admin/metaboxes-rotator.php:214
+msgid "and place it in your theme."
+msgstr "И поместите его в свою тему."
+
+#: admin/metaboxes-rotator.php:213
+msgid "To create custom layouts for this rotator create a file called"
+msgstr "Чтобы создать собственные макеты для этого ротатора, создайте файл с названием"
+
+#: admin/metaboxes-rotator.php:212
+msgid "Make a Custom Template:"
+msgstr "Создайте собственный шаблон:"
+
+#: admin/metaboxes-rotator.php:195
+msgid "Use"
+msgstr "Использовать"
+
+#: admin/metaboxes-rotator.php:154 widget.php:261
+msgid "Hide Microdata (hReview)"
+msgstr "Скрыть микроданные (hReview)"
+
+#: admin/metaboxes-rotator.php:129 widget.php:216
+msgid "Hide Featured Image"
+msgstr "Скрыть избранное изображение"
+
+#: admin/metaboxes-rotator.php:124 widget.php:177
+msgid "Show Previous/Next Buttons"
+msgstr "Показать предыдущие/следующие кнопки"
+
+#: admin/metaboxes-rotator.php:119 widget.php:168
+msgid "Vertical Align (Center Testimonials Height)"
+msgstr "Вертикальное выравнивание (высота отзыва по центру)"
+
+#: admin/metaboxes-rotator.php:101
+msgid "Limit Number of Testimonials"
+msgstr "Ограничение количества отзывов"
+
+#: admin/metaboxes-rotator.php:96 widget.php:145
+msgid "Transition Speed (in seconds)"
+msgstr "Скорость перехода (в секундах)"
+
+#: admin/metaboxes-rotator.php:91 widget.php:140
+msgid "Seconds per Testimonial"
+msgstr "Секунды на отзыв"
+
+#: admin/metaboxes-rotator.php:86 widget.php:135
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: admin/metaboxes-rotator.php:77 widget.php:125
+msgid "Transition Effect"
+msgstr "Эффект перехода"
+
+#: admin/metaboxes-rotator.php:18 admin/metaboxes-rotator.php:114
+#: widget.php:159
+msgid "Randomize Testimonials"
+msgstr "Рандомизированные отзывы"
+
+#: admin/metaboxes-rotator.php:15
+msgid "Limit Results to 10 and list"
+msgstr "Ограничить результаты до 10 и перечислить"
+
+#: admin/metaboxes-rotator.php:12
+msgid "List All Testimonials"
+msgstr "Список всех отзывов"
+
+#: admin/admin-settings.php:86
+msgid "Already loading Font Awesome with your theme or another plugin? You can turn off our version here."
+msgstr "Загрузили Font Awesome ранее с другим плагином или темой? Вы можете отключить нашу версию здесь."
+
+#: admin/admin-settings.php:74
+msgid "Select the roles that will be able to see the Rotator List View and 'Add New' Button in the admin menu."
+msgstr "Укажите, кто будет иметь возможность видеть просмотр списка ротаторов и кнопку «Добавить новый» в меню администратора."
+
+#: admin/admin-settings.php:56
+msgid "What should the plugin do when there is an error?"
+msgstr "Что должен делать плагин при возникновении ошибки?"
+
+#: admin/admin-settings.php:53
+msgid "Display for Anyone"
+msgstr "Отображать для всех"
+
+#: admin/admin-settings.php:52
+msgid "Display if Admin"
+msgstr "Отображать для администратора"
+
+#: admin/admin-settings.php:51
+msgid "Hidden in Source"
+msgstr "Скрыто в источнике"
+
+#: admin/admin-settings.php:42
+msgid "Settings Updated"
+msgstr "Настройки обновлены"
+
+#: admin/admin-settings.php:33
+msgid "Hide Font Awesome?"
+msgstr "Скрыть Font Awesome?"
+
+#: admin/admin-settings.php:32
+msgid "Who Sees Rotator Menu?"
+msgstr "Для кого видно меню ротатора"
+
+#: admin/admin-settings.php:31
+msgid "Error Handling"
+msgstr "Обработка ошибок"
+
+#: admin/admin-settings.php:8
+msgid "Testimonial Rotator Settings"
+msgstr "Настройки ротатора отзыва"
+
+#: admin/admin-functions.php:314
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/admin-functions.php:313
+msgid "Insert Rotator"
+msgstr "Вставить ротатор"
+
+#: admin/admin-functions.php:310
+msgid "No rotators have been created yet. Please create one first and then you will be able to select it here."
+msgstr "Ни одного ротатора еще не создано. Сначала создайте новый, а затем вы сможете выбрать его здесь."
+
+#: admin/admin-functions.php:302
+msgid "Choose a Rotator"
+msgstr "Выбрать ротатор"
+
+#: admin/admin-functions.php:286
+msgid "You must choose a rotator"
+msgstr "Вы должны выбрать ротатор"
+
+#: admin/admin-functions.php:242
+msgid "Donate"
+msgstr "Пожертвование"
+
+#: admin/admin-functions.php:203 testimonial-rotator.php:118
+#: testimonial-rotator.php:152
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: admin/admin-functions.php:202 testimonial-rotator.php:162
+msgid "Rotators"
+msgstr "Ротаторы"
+
+#: admin/admin-functions.php:183 admin/admin-functions.php:244
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/admin-functions.php:179 admin/admin-functions.php:266
+msgid "Add Rotator"
+msgstr "Добавить ротатор"
+
+#: admin/admin-functions.php:112
+msgid "Display as List"
+msgstr "Показать как список"
+
+#: admin/admin-functions.php:109
+msgid "Use Rotator Settings"
+msgstr "Использовать настройки ротатора"
+
+#: admin/admin-functions.php:99
+msgid "Shortcodes"
+msgstr "Шорткоды"
+
+#: admin/admin-functions.php:51
+msgid "Order"
+msgstr "Порядок"
+
+#: admin/admin-functions.php:50 admin/admin-functions.php:62
+#: testimonial-rotator.php:151 widget.php:53 widget.php:67
+msgid "Rotator"
+msgstr "Ротатор"
+
+#: admin/admin-functions.php:49
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: admin/admin-functions.php:48 admin/admin-functions.php:61
+#: admin/admin-functions.php:96
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/admin-functions.php:47
+msgid "Image"
+msgstr "Изображение"
+
+#: admin/admin-functions.php:37
+msgid "Enter Highlight Here"
+msgstr "Вставить выделение"
+
+#: admin/admin-functions.php:27
+msgid "Rotator Options"
+msgstr "Параметры ротатора"
+
+#: admin/admin-functions.php:23
+msgid "Rotator Shortcode"
+msgstr "Шорткод ротатора"
+
+#: admin/admin-functions.php:14
+msgid "Testimonial Order"
+msgstr "Порядок отзыва"
+
+#: admin/admin-functions.php:11
+msgid "Testimonial Image"
+msgstr "Изображение отзыва"
+
+#: admin/admin-functions.php:8
+msgid "Testimonial Options"
+msgstr "Параметры отзыва"
