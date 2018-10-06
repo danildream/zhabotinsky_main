@@ -41,6 +41,19 @@ LESS Variables and Mixins
   -webkit-transition: padding 200ms;
   -o-transition: padding 200ms;
   transition: padding 200ms;
+  background-color: #1c448a;
+  color: #fff;
+}
+
+#header .header_info.row {
+  background-color: #a08240;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+#header .header_info .container {
+  padding-left: 0;
+  padding-right: 0;
 }
 .search_open #header {
   padding-top: 80px;
@@ -67,9 +80,11 @@ LESS Variables and Mixins
   -ms-transform: translate(0, 0);
   -o-transform: translate(0, 0);
   transform: translate(0, 0);
+  padding-right: 0;
+  padding-left: 0;
 }
 .logo_container {
-  margin: 30px 20px 0 0;
+  margin: 6px 12px 0 30px;
   float: left;
   display: inline-block;
   position: relative;
@@ -117,7 +132,7 @@ LESS Variables and Mixins
 Nav Menu
 ---------------------------------------*/
 .navbar-toggle .icon-bar {
-  background-color: #4d4d4d;
+  background-color: #fff;
 }
 #ql_nav_btn {
   position: absolute;
@@ -129,7 +144,7 @@ Nav Menu
   overflow: visible;
 }
 #jqueryslidemenu {
-  margin: 40px 0;
+  margin: 15px 0 5px 0;
   display: block;
 }
 /*Top level list items*/
@@ -146,8 +161,8 @@ Nav Menu
   -webkit-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-  color: #777777;
-  padding: 0.71428571428571em 1.07142857142857em;
+  color: #fff;
+  padding: 0.7em 0.5em;
 }
 #jqueryslidemenu ul.nav > li > a:hover {
   background-color: rgba(0, 0, 0, 0.02);
@@ -242,7 +257,7 @@ Login and Cart Buttons
 ---------------------------------------*/
 .login_cart_wrap {
   text-align: right;
-  margin-top: 40px;
+  margin-top: 16px;
   padding-left: 0;
   position: relative;
   z-index: 40;
@@ -271,7 +286,7 @@ Login and Cart Buttons
   float: right;
 }
 .ql_login-btn {
-  color: #777777;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   font-size: 0.875rem;
@@ -5613,7 +5628,7 @@ input[type="submit"] {
   }
   .login_cart_wrap {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-align: center;
   }
   /*
@@ -5717,14 +5732,14 @@ input[type="submit"] {
 	========================================== 
 	*/
   .logo_container {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   #jqueryslidemenu {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   .login_cart_wrap {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0;
     text-align: center;
   }
   /*

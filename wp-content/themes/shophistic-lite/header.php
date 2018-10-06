@@ -1,17 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123413765-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-123413765-1');
-</script>
-
 	<meta charset="<?php bloginfo('charset'); ?>">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
@@ -28,8 +17,6 @@
    <!-- WP_Head -->
     	<?php wp_head(); ?>
    <!-- /WP_Head -->
-    
- 
 </head>
 
 
@@ -39,6 +26,20 @@
 	<div id="wrap">
 
             <header id="header">
+                <div class="header_info row">
+
+                        <div class="container">
+                            <div class="call-us">Звоните: МТС 0669109361 Киевстар 0685118566 МТС 0952487018</div>
+                            <div class="soc-icons">
+                                <span>Мы в Соц. Сетях:</span>
+                                <a class="soc-icon fb" href="">Facebook</a>
+                                <a class="soc-icon inst" href="">Instagram</a>
+                                <a class="soc-icon yt" href="">YouTube</a>
+                                <a class="soc-icon vk" href="">Вконтакте</a>
+                            </div>
+                        </div>
+
+                </div>
                 <div class="container">
                     <div class="row">
 
@@ -46,7 +47,7 @@
 
                             <div class="logo_container">
                                 <a href="<?php echo home_url(); ?>/" class="ql_logo google-font">
-                                <img src="/wp-content/uploads/2017/07/logo.png" class="logo-img" />
+                                    <img src="/wp-content/themes/shophistic-lite/images/logo.png" class="logo-img">
                                 </a>
                                 <button id="ql_nav_btn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ql-navigation" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
@@ -113,8 +114,6 @@
                         <?php } //if WooCommerce active ?>
 
                     </div><!-- row-->
-			<div class='mysaleskidka'><b class='top_b_percent'>Внимание!!!</b> При покупке от 2 до 5 футболок скидка <b class='top_b_percent'>10%</b>, при покупке от 5 футболок скидка <b class='top_b_percent'>20%</b><br><b class='top_b_percent'>Акция действует до 31 мая 2018</b>
-		</div>		
                 </div><!-- /container -->
 
             </header>
