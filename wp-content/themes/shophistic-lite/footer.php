@@ -1,7 +1,7 @@
         <div class="footer_wrap ">
 
 
-                <footer id="footer" class="container">
+                <footer id="footer" class="">
                     <div class="sub_footer">
                         <div class="footer-1 low-footer">
                         <?php if (!dynamic_sidebar('Footer-1')) :?> <?php endif;?>

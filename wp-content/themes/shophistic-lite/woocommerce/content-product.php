@@ -50,7 +50,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 						 */
 						do_action( 'woocommerce_before_shop_loop_item_title' );
 					?>
-				</a>
+
                 <div class="product_text">
                 	<?php shophistic_lite_product_category(); ?>
 
@@ -78,6 +78,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 					?>
 					<div class="clearfix"></div>
 				</div><!-- /product_text -->
+                </a>
             </div>
         </div>
         <div class="product_content_hidden">
